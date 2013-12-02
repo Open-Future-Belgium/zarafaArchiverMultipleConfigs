@@ -46,5 +46,5 @@ If you want to archive mails periodically put the command to run the script in c
  
 ```
 # This will run @ 00:00, logging will go to /dev/null
-0 7,12,0 * * * cd /path/to/zarafaArchiverMultipleConfigs && ./zarafaArchive.sh > /dev/null
+0 0 * * * cd /path/to/zarafaArchiverMultipleConfigs && ./zarafaArchive.sh > /dev/null
 ```
